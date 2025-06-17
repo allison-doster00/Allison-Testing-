@@ -1,0 +1,19 @@
+Requirements for Template Sharing Across Applications within the Same Line of Business (LoB)
+1. Filtering and Sorting Templates
+Users are able to filter and sort the Templates they create by Template Type and Label.
+2. Sharing Templates with Other Applications
+Users are able to share one or more Templates they create with other Applications under the same Line of Business (LoB).
+The system allows users to select one or more target Applications to share a Template with.
+3. Un-sharing Templates with Other Applications
+Users are able to un-share Templates they have previously shared with other Applications.
+If a Template is un-shared and is in an 'Active' status with unfinalized Letter Instances associated:
+Other Applications are able to use the Template to finalize existing Letter Instances.
+No new Letter Instances are able to be created from the Template in other Applications after it is un-shared.
+If a Template is un-shared and is in 'Draft', 'Completed', or 'Approved' status:
+Other Applications are not able to use the Template.
+4. Receiving Shared Templates
+Users are able to receive Templates in their Application that other users in the same LoB share with them.
+Recipients of a shared Template are not able to modify or delete the shared Template.
+If a shared Template is retired:
+Users are not able to use it to generate new Letter Instances.
+Users are able to finalize any existing unfinalized Letter Instances.
